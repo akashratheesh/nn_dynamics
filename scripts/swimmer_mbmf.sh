@@ -5,12 +5,12 @@
 #####################################
 
 #location of all saved trpo runs
-trpo_dir='/home/anagabandi/rllab/data/local/experiment/'
+trpo_dir='/rllab/data/local/experiment/'
 
 #specific to the run
 how_many_seeds=3
 seeds=(0 70 100)
-num_workers_trpo=2 #how many cores to use
+num_workers_trpo=8 #how many cores to use
 
 #specific to the agent
 which_agent=2
